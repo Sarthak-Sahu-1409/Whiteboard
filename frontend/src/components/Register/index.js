@@ -15,7 +15,7 @@ const Register = () => {
       return;
     }
     try {
-      const response = await fetch('https://whiteboard-seven-bay.vercel.app/api/users/register', {
+      const response = await fetch('https://whiteboard-lnes.onrender.com/api/users/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

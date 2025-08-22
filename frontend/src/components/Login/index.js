@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://whiteboard-seven-bay.vercel.app/api/users/login', {
+      const response = await fetch('https://whiteboard-lnes.onrender.com/api/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
